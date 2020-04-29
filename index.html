@@ -1,0 +1,150 @@
+<html>
+​
+
+<head>
+	<title>Proyecto día 2 - Bootstrap</title>
+	<!-- Etiquetas obligatorias -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Enlace Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- Enlace Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+​
+
+<body style="background-color:#D3D5D7">
+	<div padding-left="80px">
+		<nav class="navbar navbar-expand-lg navbar-light" style="background-color:#FFFFFF">
+			<a class="navbar-brand bg-gradient-info" href="#" padding-left: 50px><img src="http://www.lacaldera.info/uploads/images/instagram-logo-and-icon-black-and-white-text-glyph-png(1).png"
+		        style="width: 130px; height: 40px;" padding-left: 50px >
+		    </a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+		                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style: color: black;>
+		            <span class="navbar-toggler-icon" style="color:black;"></span>
+		        </button>
+				​
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+						</li>
+					</ul>
+					<!--Inicio Formulario-->
+					<form class="form-inline my-2 my-lg-0">
+						<!--Boton "Create a new post"-->
+						<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Create new post
+                        </button>
+						​
+						<!--Inicio Dropdown-->
+						<div class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" style="color: black;" href="#" id="navbarDropdown" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="fas fa-cog"></i></a>
+							<!--Link imagen engranaje-->
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#">Action1</a>
+								<a class="dropdown-item" href="#">Action2</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Action3</a>
+							</div>
+						</div>
+						<!--Fin Dropdown-->
+					</form>
+					<!--Fin Formulario-->
+				</div>
+		</nav>
+	</div>
+	<!--Comienzo class container-->
+	<div class="container">
+		<!--Comienzo Nav-->
+		<div class="row">
+			<div class="col-12 nav justify-content-center">
+				<li class="nav-item">
+					<a class="nav-link active" href="#"><i class="fas fa-th"></i></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="fas fa-square"></i></a>
+				</li>
+			</div>
+		</div>
+		<!--Fin Nav-->
+		​
+		<!-- Inicio Filas -->
+		<div class="card-group">
+			<div class="card">
+				<img class="card-img-top" src="https://picsum.photos/259/180?random=1" alt="Card image cap">
+            </div>
+			<div class="card">
+				<img class="card-img-top" src="https://picsum.photos/259/180?random=2" alt="Card image cap">
+            </div>
+			<div class="card">
+				<img class="card-img-top" src="https://picsum.photos/259/180?random=3" alt="Card image cap">
+            </div>
+		</div>
+		<div class="card-group">
+			<div class="card">
+				<img class="card-img-top" src="https://picsum.photos/259/180?random=4" alt="Card image cap">
+             </div>
+			<div class="card">
+				<img class="card-img-top" src="https://picsum.photos/259/180?random=5" alt="Card image cap">
+        </div>
+								<div class="card">
+									<img class="card-img-top" src="https://picsum.photos/259/180?random=6" alt="Card image cap">
+        </div>
+								</div>
+								<div class="card-group">
+									<div class="card">
+										<img class="card-img-top" src="https://picsum.photos/259/180?random=7" alt="Card image cap">
+        </div>
+										<div class="card">
+											<img class="card-img-top" src="https://picsum.photos/259/180?random=8" alt="Card image cap">
+        </div>
+											<div class="card">
+												<img class="card-img-top" src="https://picsum.photos/259/180?random=9" alt="Card image cap">
+        </div>
+											</div>
+
+											<!-- Modal -->
+											<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+												aria-labelledby="exampleModalLabel" aria-hidden="true">
+												<div class="modal-dialog" role="document">
+													<div class="modal-content">
+														<div class="modal-body">
+															<label for="exampleFormControlTextarea1"></label>
+															<textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="2"></textarea>
+															<br>
+															<div class="form-group">
+																<span><button class="mi margen margi-left: 3px;"><i class="fas fa-camera"></i><button><i class="fas fa-map-marker-alt"></i>
+                                </button>
+                            </span>
+															</div>
+															<div class="modal-footer">
+																<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+																<button type="button" class="btn btn-success">Publish</button>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<!-- Optional JavaScript -->
+												<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+												<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+													integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+													crossorigin="anonymous">
+												</script>
+												<script
+													src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+													integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+													crossorigin="anonymous">
+												</script>
+												<script
+													src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+													integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+													crossorigin="anonymous">
+												</script>
+</body>
+​
+
+</html>
